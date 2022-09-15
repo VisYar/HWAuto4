@@ -22,7 +22,7 @@ public class OrderCardDeliveryTest {
 
     @Test
     void shouldSubmitValidData() {
-        $("[data-test-id=city] .input__control").setValue("Z");
+        $("[data-test-id=city] .input__control").setValue("Ярославль");
         $("div [data-test-id='date'] input").setValue("14.09.2022");
         $("[data-test-id = name] .input__control").setValue("Ирина Ким");
         $("[data-test-id = phone] .input__control").setValue("+79600000000");
