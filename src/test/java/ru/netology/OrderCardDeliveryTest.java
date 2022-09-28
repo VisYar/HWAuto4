@@ -1,6 +1,5 @@
 package ru.netology;
 
-import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.*;
 
 import java.time.Duration;
@@ -16,11 +15,6 @@ public class OrderCardDeliveryTest {
     public static String setLocalDate(int days) {
         return LocalDate.now().plusDays(days).format(DateTimeFormatter.ofPattern("dd.MM.yyyy",
                 new Locale("ru")));
-    }
-
-    @BeforeAll
-    static void setUpAll() {
-        Configuration.headless = true;
     }
 
     @BeforeEach
