@@ -1,5 +1,5 @@
 
-[![Build status](https://ci.appveyor.com/api/projects/status/gr80y1tynesh7qfc?svg=true)](https://ci.appveyor.com/project/VisYar/hwauto4)
+[![Build status](https://ci.appveyor.com/api/projects/status/ux78dxynubb8pn8p?svg=true)](https://ci.appveyor.com/project/VisYar/hwauto4-carddelivery)
 
 
 # Домашнее задание к занятию «2.2. Selenide»
